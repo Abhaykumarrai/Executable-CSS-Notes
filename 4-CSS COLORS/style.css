@@ -1,0 +1,17 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+    background-color: green;
+    color:red;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: hwb(240 31% 48% / 0.57);
+}
+p{
+    color:white
+}

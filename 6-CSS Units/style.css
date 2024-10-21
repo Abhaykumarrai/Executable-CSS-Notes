@@ -1,0 +1,12 @@
+body{
+    font-size: 2em;
+}
+.relativeUnits {
+    font-size:200%;
+}
+.relativeUnits2 {
+    font-size:2em;
+}
+.relativeUnits3 {
+    font-size:2rem;
+}
