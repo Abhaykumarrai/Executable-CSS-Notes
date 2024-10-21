@@ -28,6 +28,11 @@ In simple selector we select element through following ways.
 
 
 5-Universal Selector ->> The universal selector (*) selects all HTML elements on the page.
+• Matches All: Targets and styles all elements on a webpage.
+• Syntax: Utilized as an asterisk (*).
+• Resets Styles: Commonly used to reset margins and paddings globally.
+• Broad Styling: Useful for setting universal attributes like font or color.
+• Usage Caution: Can cause style conflicts due to its wide-reaching effects.
 
 
 ------------------------------------------------
@@ -39,7 +44,7 @@ Most Important Point Which Makes You Pro In CSS
 3-Always Keep in mind about the Specificity of the selectors (inline>Id>Class>Elements)
 4-If we define css property inside body and html element aother element of the html page inherit that property.
 5-But we can override the for diffrent element
-6-form element are not inherit the properties for parent element , to use property from parent we have to use inherit value.
+6-form element are not inherit the properties fro parent element , to use property from parent we have to use inherit value.
 7-Universal selector does not works on inheritance principal it all about selecting all the elements of webpage.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
