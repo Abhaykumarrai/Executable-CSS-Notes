@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .div{
+            background-color: brown;
+            margin: 5px;
+            height: 80px;
+            width: 80px;
+        }
+        #div1{
+            position: static;
+        }
+        #div2{
+            position: relative;
+            top: 256px;
+        }
+        #div3{
+            position: absolute;
+           top: 86px;
+        }
+        #div4{
+            position: fixed;
+            left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1" class="div">static</div>
+    <div id="div2" class="div">relative</div>
+    <div id="div3" class="div">absolute</div>
+    <div id="div4" class="div">fixed</div>
+</body>
+</html>

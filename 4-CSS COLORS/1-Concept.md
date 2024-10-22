@@ -20,3 +20,9 @@
 --Saturation is a percentage value. 0% means a shade of grey, and 100% is the full colour.
 --Lightness is also a percentage value. 0% is black, and 100% is white.
 
+
+
+***************************Diffrence between foreground and background color********************************
+
+Definition: The foreground color is the primary color used for the main elements in a composition. 
+Definition: The background color is the color that fills the space behind the foreground elements.
