@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .class{
+           background-color: brown;
+           border: 5px solid black;
+           color: white;
+           margin: 30px;
+           width: 60px;
+           height: 60px;
+           text-align: center;
+           font-weight: 700;
+           transition: all;
+           transition-duration: 1s;
+           transition-timing-function: ease-in;
+           
+        }
+        #div1:hover{
+            border-color: blueviolet;
+            background-color: aqua;
+            transform: rotate(360deg);
+        }
+        #div2:hover{
+             transform: rotatex(180deg);
+        }
+        #div3:hover{
+            transform: rotatey(45deg);
+        }
+        #div4:hover{
+            margin-top: 60px;
+            margin-left: 60px;
+            transform: scale(2);
+        }
+        #div5:hover{
+            margin-top: 60px;
+            margin-left: 60px;
+            transform: scalex(2);
+        }
+        #div6:hover{
+            margin-top: 60px;
+            margin-left: 60px;
+            transform: scaley(2);
+        }
+        #div7:hover{
+            margin-top: 60px;
+            margin-left: 60px;
+            transform: translateX(50px);
+        }
+        #div8:hover{
+            margin-top: 60px;
+            margin-left: 60px;
+            transform: translateY(50px);
+        }
+        #div9:hover{
+            margin-top: 60px;
+            margin-left: 60px;
+            transform: translateZ(50px);
+        }
+        #div10:hover{
+            margin-top: 60px;
+            margin-left: 60px;
+            transform: translate(50px ,40px,100px);
+        }
+        #div11:hover{
+            margin-top: 60px;
+            margin-left: 60px;
+            transform: skew(45deg)
+        }
+    </style>
+</head>
+<body>
+    <div id="div1" class="class">180 Degree</div>
+    <div id="div2" class="class">rotate x</div>
+    <div id="div3" class="class">rotate y</div>
+    <div id="div4" class="class">scale 2 times</div>
+    <div id="div5" class="class">scale 2 times in x</div>
+    <div id="div6" class="class">scale 2 times in y</div>
+    <!-- The translate property allows you to change the position of elements.
+    The translate property defines x- and y-coordinates of an element in 2D. You can also define the z-coordinate to change position in 3D. -->
+    <div id="div7" class="class">translate  in x</div>
+    <div id="div8" class="class">translate  in y</div>
+    <div id="div9" class="class">translate  in z</div>
+    <div id="div10" class="class">translate  in x y z</div>
+    <!-- Skew means to distort or twist something from its true value or symmetrical form. -->
+    <div id="div11" class="class">skew 45 degree</div>
+</body>
+</html>
